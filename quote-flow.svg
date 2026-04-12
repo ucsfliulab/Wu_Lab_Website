@@ -30,10 +30,10 @@
   <text x="181" y="47" fill="#FFF9F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700">Neural state</text>
   <text x="311" y="150" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700">Behavior</text>
 
-  <path d="M129 52H155" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M274 143H286" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M148 52L156 52L152 48" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M278 143L286 143L282 139" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M132 52C141 52 148 52 156 52" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M149 47L156 52L149 57" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M269 145C277 145 283 145 290 145" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M283 140L290 145L283 150" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
 
   <defs>
     <linearGradient id="panel" x1="18" y1="12" x2="370" y2="200" gradientUnits="userSpaceOnUse">

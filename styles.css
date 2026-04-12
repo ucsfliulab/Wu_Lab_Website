@@ -248,7 +248,8 @@ body::before {
 .approach-column,
 .timeline-item,
 .vision-panel,
-.contact-box {
+.contact-box,
+.publication-item {
   border: 1px solid rgba(23, 35, 32, 0.08);
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.48);
@@ -461,7 +462,8 @@ body::before {
 .approach-column,
 .timeline-item,
 .vision-panel,
-.contact-box {
+.contact-box,
+.publication-item {
   padding: 22px;
 }
 
@@ -528,11 +530,42 @@ body::before {
 }
 
 .approach-layout,
-.vision-layout {
+.vision-layout,
+.publication-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
   margin-top: 26px;
+}
+
+.publication-item h3 {
+  margin: 0 0 10px;
+  font-family: "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 1.4rem;
+  line-height: 1.18;
+}
+
+.publication-year,
+.publication-meta {
+  margin: 0 0 10px;
+}
+
+.publication-year {
+  color: var(--coral);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.publication-meta {
+  color: var(--teal);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.publication-item p:last-child {
+  margin-bottom: 0;
 }
 
 .stack-list {

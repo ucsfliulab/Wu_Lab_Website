@@ -739,6 +739,52 @@ body::before {
   border-bottom: none;
 }
 
+.people-list-style,
+.news-list-style {
+  gap: 0;
+}
+
+.people-list-style .person-card,
+.news-list-style .news-item {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(23, 35, 32, 0.12);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 22px 0 20px;
+}
+
+.people-list-style .person-card::before,
+.news-list-style .news-item::before {
+  display: none;
+}
+
+.people-list-style .person-card:last-child,
+.news-list-style .news-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.people-list-style .person-card h3,
+.news-list-style .news-item h3 {
+  margin: 0 0 8px;
+  max-width: 38ch;
+  font-size: 1.65rem;
+  line-height: 1.16;
+}
+
+.people-list-style .person-role,
+.news-list-style .news-date {
+  margin-bottom: 8px;
+}
+
+.people-list-style .person-card p:last-child,
+.news-list-style .news-item p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .person-role,
 .news-date {
   margin: 0 0 10px;

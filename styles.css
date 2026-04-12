@@ -390,8 +390,9 @@ body::before {
   aspect-ratio: 1 / 1.05;
   border-radius: 30px;
   background:
-    radial-gradient(circle at 30% 20%, rgba(222, 109, 75, 0.24), transparent 24%),
-    linear-gradient(160deg, rgba(9, 60, 65, 0.94), rgba(13, 109, 115, 0.82));
+    radial-gradient(circle at 74% 16%, rgba(255, 243, 218, 0.12), transparent 18%),
+    radial-gradient(circle at 28% 86%, rgba(222, 109, 75, 0.16), transparent 22%),
+    linear-gradient(165deg, rgba(14, 72, 76, 0.97), rgba(45, 125, 131, 0.92));
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.1),
     0 26px 56px rgba(13, 40, 44, 0.2);
@@ -413,93 +414,116 @@ body::before {
 }
 
 .signal-panel::after {
-  background: radial-gradient(circle at 50% 50%, transparent 48%, rgba(255, 255, 255, 0.04) 49%, transparent 50%);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 30%),
+    radial-gradient(circle at 50% 52%, transparent 42%, rgba(255, 255, 255, 0.04) 43%, transparent 44%);
 }
 
+.signal-halo,
 .signal-core,
 .signal-node,
 .signal-orbit,
 .signal-trace,
-.signal-card {
+.signal-card,
+.signal-caption {
   position: absolute;
 }
 
+.signal-halo {
+  inset: 18% 18%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(248, 211, 152, 0.12), transparent 62%);
+  filter: blur(6px);
+}
+
 .signal-core {
-  top: 44%;
-  left: 46%;
-  width: 88px;
-  height: 88px;
+  top: 49%;
+  left: 48%;
+  width: 92px;
+  height: 92px;
   border-radius: 50%;
   background:
-    radial-gradient(circle at 35% 35%, #fff3d7, #de6d4b 58%, rgba(222, 109, 75, 0.25));
+    radial-gradient(circle at 34% 34%, #fff3d7, #f18f63 34%, #de6d4b 65%, rgba(222, 109, 75, 0.24));
   box-shadow:
-    0 0 0 16px rgba(255, 255, 255, 0.06),
-    0 0 40px rgba(255, 219, 167, 0.4);
+    0 0 0 18px rgba(255, 255, 255, 0.05),
+    0 0 54px rgba(255, 219, 167, 0.28);
   transform: translate(-50%, -50%);
 }
 
 .signal-orbit {
-  border: 1px solid rgba(255, 255, 255, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 50%;
 }
 
 .orbit-one {
-  inset: 18% 18%;
+  inset: 24% 22%;
 }
 
 .orbit-two {
-  inset: 8% 8%;
+  inset: 12% 10%;
+}
+
+.orbit-three {
+  inset: 32% 30%;
+  border-style: dashed;
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .signal-node {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   background: #fff5df;
-  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.07);
 }
 
 .node-one {
   top: 18%;
-  left: 56%;
+  right: 18%;
 }
 
 .node-two {
-  right: 15%;
-  top: 52%;
-}
-
-.node-three {
-  left: 18%;
-  bottom: 19%;
+  left: 20%;
+  bottom: 22%;
 }
 
 .signal-trace {
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.56), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
   transform-origin: left center;
 }
 
 .trace-one {
-  top: 31%;
-  left: 25%;
-  width: 48%;
-  transform: rotate(22deg);
+  top: 36%;
+  left: 26%;
+  width: 44%;
+  transform: rotate(21deg);
 }
 
 .trace-two {
   top: 58%;
-  left: 38%;
-  width: 34%;
-  transform: rotate(-28deg);
+  left: 42%;
+  width: 26%;
+  transform: rotate(-32deg);
+}
+
+.signal-caption {
+  top: 56%;
+  left: 48%;
+  transform: translateX(-50%);
+  color: rgba(248, 243, 233, 0.76);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .signal-card {
-  min-width: 132px;
-  padding: 12px 14px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 18px;
-  background: rgba(251, 246, 235, 0.12);
+  min-width: 124px;
+  padding: 11px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(245, 241, 232, 0.16), rgba(180, 223, 224, 0.12));
   color: #f8f3e9;
   backdrop-filter: blur(12px);
 }
@@ -519,18 +543,21 @@ body::before {
 }
 
 .card-left {
-  top: 14%;
-  left: 9%;
+  top: 10%;
+  left: 8%;
+  width: 60%;
 }
 
 .card-right {
-  right: 7%;
-  bottom: 11%;
+  right: 8%;
+  bottom: 14%;
+  width: 38%;
 }
 
 .card-bottom {
-  left: 9%;
-  bottom: 10%;
+  left: 8%;
+  bottom: 12%;
+  width: 48%;
 }
 
 .section {

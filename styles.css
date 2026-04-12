@@ -674,6 +674,12 @@ body::before {
   gap: 14px;
 }
 
+.publication-list.publication-list-force-single {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 14px;
+}
+
 .publication-list-column .publication-item {
   padding: 20px 22px;
 }

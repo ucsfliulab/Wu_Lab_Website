@@ -1,0 +1,90 @@
+<svg width="520" height="560" viewBox="0 0 520 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="560" rx="40" fill="url(#bg)"/>
+  <rect x="0.75" y="0.75" width="518.5" height="558.5" rx="39.25" stroke="#F6EFE4" stroke-opacity="0.12" stroke-width="1.5"/>
+  <rect x="28" y="28" width="464" height="504" rx="32" stroke="#FFF4E8" stroke-opacity="0.12" stroke-width="1.5"/>
+
+  <g opacity="0.07">
+    <path d="M52 92H468" stroke="#FFF5E8"/>
+    <path d="M52 160H468" stroke="#FFF5E8"/>
+    <path d="M52 228H468" stroke="#FFF5E8"/>
+    <path d="M52 296H468" stroke="#FFF5E8"/>
+    <path d="M52 364H468" stroke="#FFF5E8"/>
+    <path d="M52 432H468" stroke="#FFF5E8"/>
+    <path d="M96 80V452" stroke="#FFF5E8"/>
+    <path d="M160 80V452" stroke="#FFF5E8"/>
+    <path d="M224 80V452" stroke="#FFF5E8"/>
+    <path d="M288 80V452" stroke="#FFF5E8"/>
+    <path d="M352 80V452" stroke="#FFF5E8"/>
+    <path d="M416 80V452" stroke="#FFF5E8"/>
+  </g>
+
+  <text x="52" y="58" fill="#F6EEDD" fill-opacity="0.82" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="3">PROTEIN APPETITE CONTROL</text>
+
+  <path d="M226 202C250 202 272 210 296 232C318 252 334 275 354 294C374 313 401 342 432 364" stroke="url(#trace)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="226" cy="202" r="8" fill="#FFF4E7"/>
+  <circle cx="286" cy="222" r="9" fill="#F6B48D"/>
+  <circle cx="340" cy="274" r="10" fill="#DE6D4B"/>
+  <circle cx="432" cy="364" r="9" fill="#FFF4E7"/>
+
+  <g opacity="0.16">
+    <path d="M146 224C190 214 234 214 274 230C323 249 362 287 406 356" stroke="#FFF4E8" stroke-width="2.2"/>
+    <path d="M144 402C200 390 255 394 316 422" stroke="#FFF4E8" stroke-width="2.2"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="68" y="126" width="152" height="86" rx="24" fill="url(#card)"/>
+    <rect x="166" y="214" width="188" height="120" rx="34" fill="url(#highlight)"/>
+  <rect x="324" y="334" width="132" height="84" rx="24" fill="url(#card)"/>
+  </g>
+
+  <text x="144" y="157" fill="#F6EEDD" fill-opacity="0.72" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">NEED</text>
+  <text x="144" y="190" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Protein need</text>
+
+  <text x="260" y="252" fill="#FFF8F1" fill-opacity="0.82" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">STATE</text>
+  <text x="260" y="287" fill="#FFFDF8" font-family="Avenir Next, Segoe UI, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Neural state</text>
+
+  <text x="390" y="364" fill="#F6EEDD" fill-opacity="0.72" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">OUTPUT</text>
+  <text x="390" y="394" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Appetite</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="282" y="96" width="168" height="72" rx="24" fill="url(#card)"/>
+  </g>
+  <g transform="translate(302 106)">
+    <path d="M20 9C12 3 4 5 1 12C-1 15 0 18 2 20C5 22 10 22 14 19C17 18 19 15 21 12" fill="#FFF6E7" fill-opacity="0.84" stroke="#C7A14A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M34 9C42 3 50 5 53 12C55 15 54 18 52 20C49 22 44 22 40 19C37 18 35 15 33 12" fill="#FFF6E7" fill-opacity="0.84" stroke="#C7A14A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="27" cy="16" rx="5.5" ry="6.5" fill="#17302D"/>
+    <ellipse cx="27" cy="28" rx="5.8" ry="11" fill="#E9744D"/>
+    <ellipse cx="27" cy="41" rx="4.2" ry="8.5" fill="#17302D"/>
+    <path d="M24 9L21 3" stroke="#17302D" stroke-width="2" stroke-linecap="round"/>
+    <path d="M30 9L33 3" stroke="#17302D" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="366" y="139" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="18" font-weight="700">Drosophila</text>
+
+  <g opacity="0.15">
+    <path d="M284 448C334 438 388 441 448 458" stroke="#FFF4E8" stroke-width="2.2"/>
+    <path d="M284 468C336 460 392 466 448 482" stroke="#FFF4E8" stroke-width="2.2"/>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="34" y1="18" x2="446" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A5258"/>
+      <stop offset="1" stop-color="#44898E"/>
+    </linearGradient>
+    <linearGradient id="card" x1="68" y1="126" x2="450" y2="482" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F1E6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#B4D5D6" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="166" y1="214" x2="354" y2="334" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5A77D"/>
+      <stop offset="1" stop-color="#DE6D4B"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="226" y1="202" x2="432" y2="364" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3E6" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#F5AF88"/>
+      <stop offset="1" stop-color="#FFF3E6" stop-opacity="0.68"/>
+    </linearGradient>
+    <filter id="cardShadow" x="52" y="80" width="414" height="348" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0B2E31" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+</svg>

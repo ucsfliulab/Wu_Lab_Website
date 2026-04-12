@@ -390,9 +390,9 @@ body::before {
   aspect-ratio: 1 / 1.05;
   border-radius: 30px;
   background:
-    radial-gradient(circle at 74% 16%, rgba(255, 243, 218, 0.12), transparent 18%),
-    radial-gradient(circle at 28% 86%, rgba(222, 109, 75, 0.16), transparent 22%),
-    linear-gradient(165deg, rgba(14, 72, 76, 0.97), rgba(45, 125, 131, 0.92));
+    radial-gradient(circle at 82% 16%, rgba(255, 243, 218, 0.14), transparent 18%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 20%),
+    linear-gradient(165deg, rgba(11, 66, 71, 0.98), rgba(42, 116, 122, 0.94));
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.1),
     0 26px 56px rgba(13, 40, 44, 0.2);
@@ -415,120 +415,76 @@ body::before {
 
 .signal-panel::after {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 30%),
-    radial-gradient(circle at 50% 52%, transparent 42%, rgba(255, 255, 255, 0.04) 43%, transparent 44%);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent 30%);
 }
 
-.signal-halo,
-.signal-core,
+.signal-panel-label,
+.signal-axis,
+.signal-connector,
 .signal-node,
-.signal-orbit,
-.signal-trace,
-.signal-card,
-.signal-caption {
+.signal-organism {
   position: absolute;
 }
 
-.signal-halo {
-  inset: 18% 18%;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(248, 211, 152, 0.12), transparent 62%);
-  filter: blur(6px);
-}
-
-.signal-core {
-  top: 49%;
-  left: 48%;
-  width: 92px;
-  height: 92px;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 34% 34%, #fff3d7, #f18f63 34%, #de6d4b 65%, rgba(222, 109, 75, 0.24));
-  box-shadow:
-    0 0 0 18px rgba(255, 255, 255, 0.05),
-    0 0 54px rgba(255, 219, 167, 0.28);
-  transform: translate(-50%, -50%);
-}
-
-.signal-orbit {
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 50%;
-}
-
-.orbit-one {
-  inset: 24% 22%;
-}
-
-.orbit-two {
-  inset: 12% 10%;
-}
-
-.orbit-three {
-  inset: 32% 30%;
-  border-style: dashed;
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-.signal-node {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #fff5df;
-  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.07);
-}
-
-.node-one {
-  top: 18%;
-  right: 18%;
-}
-
-.node-two {
-  left: 20%;
-  bottom: 22%;
-}
-
-.signal-trace {
-  height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-  transform-origin: left center;
-}
-
-.trace-one {
-  top: 36%;
-  left: 26%;
-  width: 44%;
-  transform: rotate(21deg);
-}
-
-.trace-two {
-  top: 58%;
-  left: 42%;
-  width: 26%;
-  transform: rotate(-32deg);
-}
-
-.signal-caption {
-  top: 56%;
-  left: 48%;
-  transform: translateX(-50%);
-  color: rgba(248, 243, 233, 0.76);
-  font-size: 0.78rem;
+.signal-panel-label {
+  top: 7%;
+  left: 8%;
+  color: rgba(248, 243, 233, 0.72);
+  font-size: 0.76rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
-.signal-card {
-  min-width: 124px;
-  padding: 11px 13px;
-  border: 1px solid rgba(255, 255, 255, 0.13);
+.signal-axis {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.axis-horizontal {
+  left: 16%;
+  right: 16%;
+  top: 50%;
+  height: 1px;
+}
+
+.axis-vertical {
+  top: 18%;
+  bottom: 20%;
+  left: 29%;
+  width: 1px;
+}
+
+.signal-connector {
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.58));
+  transform-origin: left center;
+}
+
+.connector-one {
+  top: 35%;
+  left: 35%;
+  width: 26%;
+  transform: rotate(18deg);
+}
+
+.connector-two {
+  top: 63%;
+  left: 35%;
+  width: 33%;
+  transform: rotate(-18deg);
+}
+
+.signal-node {
+  min-width: 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 20px;
   background: linear-gradient(135deg, rgba(245, 241, 232, 0.16), rgba(180, 223, 224, 0.12));
   color: #f8f3e9;
   backdrop-filter: blur(12px);
 }
 
-.signal-card span {
+.signal-node span {
   display: block;
   margin-bottom: 8px;
   color: rgba(248, 243, 233, 0.7);
@@ -537,27 +493,62 @@ body::before {
   text-transform: uppercase;
 }
 
-.signal-card strong {
-  font-size: 0.9rem;
+.signal-node strong {
+  font-size: 0.92rem;
   line-height: 1.3;
 }
 
-.card-left {
-  top: 10%;
-  left: 8%;
-  width: 60%;
+.signal-node-state {
+  top: 20%;
+  left: 12%;
+  width: 54%;
 }
 
-.card-right {
-  right: 8%;
-  bottom: 14%;
+.signal-node-circuit {
+  top: 43%;
+  left: 34%;
   width: 38%;
+  background:
+    radial-gradient(circle at 28% 34%, rgba(255, 243, 218, 0.48), transparent 24%),
+    linear-gradient(135deg, rgba(244, 140, 96, 0.94), rgba(222, 109, 75, 0.92));
+  box-shadow:
+    0 16px 34px rgba(222, 109, 75, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.26);
 }
 
-.card-bottom {
-  left: 8%;
+.signal-node-circuit span,
+.signal-node-circuit strong {
+  color: #fff9f1;
+}
+
+.signal-node-behavior {
+  right: 9%;
+  bottom: 18%;
+  width: 36%;
+}
+
+.signal-organism {
+  left: 11%;
   bottom: 12%;
-  width: 48%;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(248, 243, 233, 0.88);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  backdrop-filter: blur(12px);
+}
+
+.signal-organism img {
+  width: 28px;
+  height: 22px;
+  object-fit: contain;
 }
 
 .section {

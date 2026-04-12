@@ -674,6 +674,12 @@ body::before {
   grid-template-columns: 1fr;
 }
 
+.people-grid.people-grid-column,
+.news-list.news-list-column {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
 .publication-list-column {
   grid-template-columns: 1fr;
   gap: 0;

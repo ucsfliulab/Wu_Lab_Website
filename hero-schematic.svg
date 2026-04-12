@@ -34,17 +34,17 @@
   </g>
 
   <text x="116" y="154" fill="#F6EEDD" fill-opacity="0.72" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">INPUT</text>
-  <text x="116" y="187" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Protein need</text>
+  <text x="116" y="187" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Protein need</text>
 
   <g filter="url(#centerGlow)">
     <circle cx="260" cy="170" r="44" fill="url(#glow)"/>
   </g>
   <text x="260" y="148" fill="#FFF8F1" fill-opacity="0.84" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">SETPOINT</text>
   <text x="260" y="177" fill="#FFFDF8" font-family="Avenir Next, Segoe UI, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Neural state</text>
-  <text x="260" y="202" fill="#FFF8F1" fill-opacity="0.86" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Membrane excitability</text>
+  <text x="260" y="202" fill="#FFF8F1" fill-opacity="0.86" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Excitability</text>
 
   <text x="404" y="154" fill="#F6EEDD" fill-opacity="0.72" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="2" text-anchor="middle">OUTPUT</text>
-  <text x="404" y="187" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22" font-weight="700" text-anchor="middle">Protein appetite</text>
+  <text x="404" y="187" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Appetite</text>
 
   <path d="M92 336C127 334 148 325 171 300C192 278 215 252 251 252C286 252 306 274 328 295C350 316 374 326 428 326" stroke="url(#trace)" stroke-width="6" stroke-linecap="round"/>
   <circle cx="92" cy="336" r="8" fill="#FFF4E7"/>

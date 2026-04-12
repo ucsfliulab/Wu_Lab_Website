@@ -1,0 +1,123 @@
+<svg width="520" height="560" viewBox="0 0 520 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="560" rx="40" fill="url(#bg)"/>
+  <rect x="0.75" y="0.75" width="518.5" height="558.5" rx="39.25" stroke="#F8F1E5" stroke-opacity="0.14" stroke-width="1.5"/>
+
+  <g opacity="0.14">
+    <path d="M0 56H520" stroke="#FFF5E8"/>
+    <path d="M0 112H520" stroke="#FFF5E8"/>
+    <path d="M0 168H520" stroke="#FFF5E8"/>
+    <path d="M0 224H520" stroke="#FFF5E8"/>
+    <path d="M0 280H520" stroke="#FFF5E8"/>
+    <path d="M0 336H520" stroke="#FFF5E8"/>
+    <path d="M0 392H520" stroke="#FFF5E8"/>
+    <path d="M0 448H520" stroke="#FFF5E8"/>
+    <path d="M0 504H520" stroke="#FFF5E8"/>
+    <path d="M52 0V560" stroke="#FFF5E8"/>
+    <path d="M104 0V560" stroke="#FFF5E8"/>
+    <path d="M156 0V560" stroke="#FFF5E8"/>
+    <path d="M208 0V560" stroke="#FFF5E8"/>
+    <path d="M260 0V560" stroke="#FFF5E8"/>
+    <path d="M312 0V560" stroke="#FFF5E8"/>
+    <path d="M364 0V560" stroke="#FFF5E8"/>
+    <path d="M416 0V560" stroke="#FFF5E8"/>
+    <path d="M468 0V560" stroke="#FFF5E8"/>
+  </g>
+
+  <text x="42" y="48" fill="#F6ECDD" fill-opacity="0.82" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" letter-spacing="3">PROTEIN APPETITE CONTROL</text>
+
+  <g opacity="0.15">
+    <circle cx="270" cy="276" r="170" stroke="#FFF5E8" stroke-width="2"/>
+    <circle cx="270" cy="276" r="118" stroke="#FFF5E8" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="40" y="90" width="194" height="108" rx="26" fill="url(#card)"/>
+    <rect x="40.75" y="90.75" width="192.5" height="106.5" rx="25.25" stroke="#FFF6EA" stroke-opacity="0.18" stroke-width="1.5"/>
+  </g>
+  <text x="66" y="129" fill="#F6ECDD" fill-opacity="0.74" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="2">INTERNAL NEED</text>
+  <text x="66" y="161" fill="#FFF8EF" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22" font-weight="700">Protein demand</text>
+  <text x="66" y="185" fill="#E7F0EA" fill-opacity="0.82" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15">Homeostatic state shifts</text>
+
+  <path d="M235 144C273 150 300 167 323 200" stroke="url(#flow1)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M315 190L324 201L312 202" stroke="#FFF4E7" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#glow)">
+    <circle cx="278" cy="254" r="62" fill="url(#coreGlow)"/>
+  </g>
+  <g filter="url(#orangeShadow)">
+    <rect x="174" y="208" width="212" height="106" rx="28" fill="url(#highlight)"/>
+    <rect x="174.75" y="208.75" width="210.5" height="104.5" rx="27.25" stroke="#FFF6EA" stroke-opacity="0.24" stroke-width="1.5"/>
+  </g>
+  <text x="203" y="247" fill="#FFF4EA" fill-opacity="0.76" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="2">NEURAL ENCODING</text>
+  <text x="203" y="281" fill="#FFF8F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="24" font-weight="700">Membrane excitability</text>
+
+  <path d="M283 315C315 342 344 361 387 372" stroke="url(#flow2)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M377 364L389 372L376 375" stroke="#FFF4E7" stroke-opacity="0.82" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="300" y="350" width="176" height="112" rx="26" fill="url(#card)"/>
+    <rect x="300.75" y="350.75" width="174.5" height="110.5" rx="25.25" stroke="#FFF6EA" stroke-opacity="0.18" stroke-width="1.5"/>
+  </g>
+  <text x="326" y="390" fill="#F6ECDD" fill-opacity="0.74" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="2">BEHAVIORAL OUTPUT</text>
+  <text x="326" y="423" fill="#FFF8EF" font-family="Avenir Next, Segoe UI, sans-serif" font-size="22" font-weight="700">Protein appetite</text>
+  <text x="326" y="447" fill="#E7F0EA" fill-opacity="0.82" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15">Feeding choice and intake</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="52" y="398" width="196" height="94" rx="47" fill="url(#card)"/>
+    <rect x="52.75" y="398.75" width="194.5" height="92.5" rx="46.25" stroke="#FFF6EA" stroke-opacity="0.18" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(76 421)">
+    <path d="M24 11C15 4 6 6 2 14C0 17 1 21 4 23C8 25 13 24 18 22C21 20 24 17 25 13" fill="#FFF6E7" fill-opacity="0.84" stroke="#C7A14A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 11C47 4 56 6 60 14C62 17 61 21 58 23C54 25 49 24 44 22C41 20 38 17 37 13" fill="#FFF6E7" fill-opacity="0.84" stroke="#C7A14A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="31" cy="18" rx="6.4" ry="7.4" fill="#17302D"/>
+    <ellipse cx="31" cy="31" rx="6.6" ry="12.6" fill="#E9744D"/>
+    <ellipse cx="31" cy="46" rx="4.8" ry="9.5" fill="#17302D"/>
+    <circle cx="26.8" cy="15.5" r="2.2" fill="#E9744D"/>
+    <circle cx="35.2" cy="15.5" r="2.2" fill="#E9744D"/>
+    <path d="M28 10.5L24.5 3.5" stroke="#17302D" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M34 10.5L37.5 3.5" stroke="#17302D" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M13 28L-1 25" stroke="#17302D" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M13 36L-1 43" stroke="#17302D" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M49 28L63 25" stroke="#17302D" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M49 36L63 43" stroke="#17302D" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <text x="140" y="437" fill="#F6ECDD" fill-opacity="0.74" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" letter-spacing="2">MODEL SYSTEM</text>
+  <text x="140" y="469" fill="#FFF8EF" font-family="Avenir Next, Segoe UI, sans-serif" font-size="20" font-weight="700">Drosophila melanogaster</text>
+
+  <defs>
+    <linearGradient id="bg" x1="36" y1="20" x2="453" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#184F54"/>
+      <stop offset="1" stop-color="#43878C"/>
+    </linearGradient>
+    <linearGradient id="card" x1="40" y1="90" x2="476" y2="462" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F1E6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#AED1D2" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="174" y1="208" x2="386" y2="314" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4A57B"/>
+      <stop offset="1" stop-color="#DF704C"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 238) rotate(45) scale(84)">
+      <stop stop-color="#FFF1D6"/>
+      <stop offset="0.42" stop-color="#F5A47C" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#DE6D4B" stop-opacity="0.08"/>
+    </radialGradient>
+    <linearGradient id="flow1" x1="235" y1="144" x2="323" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4E7" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFF4E7" stop-opacity="0.74"/>
+    </linearGradient>
+    <linearGradient id="flow2" x1="283" y1="315" x2="387" y2="372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4E7" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFF4E7" stop-opacity="0.74"/>
+    </linearGradient>
+    <filter id="cardShadow" x="28" y="78" width="464" height="428" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#0C2D31" flood-opacity="0.16"/>
+    </filter>
+    <filter id="orangeShadow" x="156" y="190" width="248" height="142" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#DE6D4B" flood-opacity="0.24"/>
+    </filter>
+    <filter id="glow" x="150" y="126" width="256" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+</svg>

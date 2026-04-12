@@ -21,19 +21,14 @@
   <circle cx="338" cy="103" r="7" fill="#F8EFE1"/>
 
   <g filter="url(#chipShadow)">
-    <rect x="30" y="34" width="104" height="36" rx="18" fill="#F7F1E7" fill-opacity="0.13"/>
-    <rect x="158" y="22" width="116" height="40" rx="20" fill="#DE6D4B" fill-opacity="0.9"/>
-    <rect x="290" y="128" width="102" height="36" rx="18" fill="#F7F1E7" fill-opacity="0.13"/>
+    <rect x="36" y="52" width="118" height="36" rx="18" fill="#F7F1E7" fill-opacity="0.13"/>
+    <rect x="160" y="28" width="124" height="40" rx="20" fill="#DE6D4B" fill-opacity="0.9"/>
+    <rect x="286" y="128" width="112" height="36" rx="18" fill="#F7F1E7" fill-opacity="0.13"/>
   </g>
 
-  <text x="50" y="56" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700">Ion channels</text>
-  <text x="181" y="47" fill="#FFF9F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700">Neural state</text>
-  <text x="311" y="150" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700">Behavior</text>
-
-  <path d="M132 52C141 52 148 52 156 52" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M149 47L156 52L149 57" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M269 145C277 145 283 145 290 145" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M283 140L290 145L283 150" stroke="#FFF4E8" stroke-opacity="0.56" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="95" y="75" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Ion channels</text>
+  <text x="222" y="53" fill="#FFF9F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Neural state</text>
+  <text x="342" y="151" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Behavior</text>
 
   <defs>
     <linearGradient id="panel" x1="18" y1="12" x2="370" y2="200" gradientUnits="userSpaceOnUse">

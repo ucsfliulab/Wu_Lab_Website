@@ -269,10 +269,10 @@ body::before {
 }
 
 .hero h1 {
-  max-width: 11ch;
-  font-size: clamp(2.9rem, 5.9vw, 4.95rem);
+  max-width: 12ch;
+  font-size: clamp(2.45rem, 4.9vw, 4.15rem);
   letter-spacing: -0.05em;
-  line-height: 0.94;
+  line-height: 0.96;
 }
 
 .hero h1 span {
@@ -880,7 +880,8 @@ body::before {
   }
 
   .hero h1 {
-    max-width: 10.5ch;
+    max-width: 11.5ch;
+    font-size: clamp(2.3rem, 5vw, 3.7rem);
   }
 
   .hero-metrics {
@@ -932,6 +933,12 @@ body::before {
   .join-panel > div,
   .contact-box {
     padding: 24px 20px;
+  }
+
+  .hero h1 {
+    max-width: 11.5ch;
+    font-size: clamp(2.2rem, 9vw, 3.15rem);
+    line-height: 0.98;
   }
 
   .site-footer {

@@ -151,6 +151,7 @@ body::before {
 }
 
 .hero {
+  position: relative;
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 32px;
@@ -163,6 +164,19 @@ body::before {
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow);
   overflow: hidden;
+}
+
+.hero::after,
+.page-banner::after {
+  position: absolute;
+  right: 28px;
+  bottom: 24px;
+  width: 124px;
+  height: 96px;
+  background: url("./fly-badge.svg") center / contain no-repeat;
+  opacity: 0.12;
+  pointer-events: none;
+  content: "";
 }
 
 .page-main {
@@ -180,6 +194,7 @@ body::before {
 }
 
 .page-banner {
+  position: relative;
   padding: 36px;
   background:
     linear-gradient(135deg, rgba(255, 250, 240, 0.9), rgba(255, 246, 235, 0.78)),
@@ -204,6 +219,29 @@ body::before {
   color: var(--muted);
   font-size: 1.04rem;
   line-height: 1.75;
+}
+
+.model-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px;
+  padding: 8px 14px 8px 10px;
+  border: 1px solid rgba(23, 35, 32, 0.08);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.62);
+  color: var(--teal-deep);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.model-pill img {
+  width: 34px;
+  height: 26px;
+  object-fit: contain;
 }
 
 .eyebrow {
@@ -484,6 +522,11 @@ body::before {
   bottom: 11%;
 }
 
+.card-bottom {
+  left: 9%;
+  bottom: 10%;
+}
+
 .section {
   margin-top: 24px;
   padding: 34px;
@@ -529,7 +572,24 @@ body::before {
 .publication-item,
 .person-card,
 .news-item {
+  position: relative;
   padding: 22px;
+}
+
+.feature-card::before,
+.approach-column::before,
+.timeline-item::before,
+.publication-item::before,
+.person-card::before,
+.news-item::before {
+  position: absolute;
+  right: 16px;
+  top: 14px;
+  width: 42px;
+  height: 32px;
+  background: url("./fly-badge.svg") center / contain no-repeat;
+  opacity: 0.08;
+  content: "";
 }
 
 .card-index,
@@ -807,7 +867,10 @@ body::before {
   .approach-layout,
   .vision-layout,
   .card-grid,
-  .timeline {
+  .timeline,
+  .publication-list,
+  .people-grid,
+  .news-list {
     grid-template-columns: 1fr;
   }
 
@@ -843,6 +906,14 @@ body::before {
   .hero,
   .section {
     padding: 24px 20px;
+  }
+
+  .hero::after,
+  .page-banner::after {
+    width: 88px;
+    height: 68px;
+    right: 18px;
+    bottom: 18px;
   }
 
   .signal-card {

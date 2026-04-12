@@ -669,6 +669,11 @@ body::before {
   grid-template-columns: 1fr;
 }
 
+.people-grid-column,
+.news-list-column {
+  grid-template-columns: 1fr;
+}
+
 .publication-list-column {
   grid-template-columns: 1fr;
   gap: 0;

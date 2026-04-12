@@ -669,6 +669,15 @@ body::before {
   grid-template-columns: 1fr;
 }
 
+.publication-list-column {
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.publication-list-column .publication-item {
+  padding: 20px 22px;
+}
+
 .person-role,
 .news-date {
   margin: 0 0 10px;

@@ -568,13 +568,24 @@ body::before {
   font-size: 1.5rem;
 }
 
+.person-card-featured {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.person-copy {
+  min-width: 0;
+}
+
 .person-photo {
   display: block;
-  width: min(100%, 180px);
+  width: 180px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center top;
-  margin: 0 0 18px;
+  margin: 0;
   border-radius: 20px;
   box-shadow: 0 14px 28px rgba(24, 38, 34, 0.12);
 }
@@ -792,5 +803,14 @@ body::before {
   .site-footer {
     flex-direction: column;
     padding: 20px 6px 28px;
+  }
+
+  .person-card-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .person-photo {
+    width: min(100%, 160px);
+    margin: 0 0 16px;
   }
 }

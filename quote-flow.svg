@@ -1,47 +1,54 @@
 <svg width="420" height="200" viewBox="0 0 420 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect x="0.75" y="0.75" width="418.5" height="198.5" rx="27.25" fill="url(#panel)" stroke="#FFF4E8" stroke-opacity="0.14" stroke-width="1.5"/>
+  <rect x="18" y="18" width="384" height="164" rx="24" stroke="#FFF4E8" stroke-opacity="0.12" stroke-width="1.5"/>
 
-  <g opacity="0.1">
-    <path d="M24 48H396" stroke="#FFF4E8"/>
-    <path d="M24 86H396" stroke="#FFF4E8"/>
-    <path d="M24 124H396" stroke="#FFF4E8"/>
-    <path d="M24 162H396" stroke="#FFF4E8"/>
-    <path d="M62 24V176" stroke="#FFF4E8"/>
-    <path d="M124 24V176" stroke="#FFF4E8"/>
-    <path d="M186 24V176" stroke="#FFF4E8"/>
-    <path d="M248 24V176" stroke="#FFF4E8"/>
-    <path d="M310 24V176" stroke="#FFF4E8"/>
-    <path d="M372 24V176" stroke="#FFF4E8"/>
+  <g opacity="0.08">
+    <path d="M34 58H386" stroke="#FFF4E8"/>
+    <path d="M34 96H386" stroke="#FFF4E8"/>
+    <path d="M34 134H386" stroke="#FFF4E8"/>
+    <path d="M34 44V158" stroke="#FFF4E8"/>
+    <path d="M108 44V158" stroke="#FFF4E8"/>
+    <path d="M182 44V158" stroke="#FFF4E8"/>
+    <path d="M256 44V158" stroke="#FFF4E8"/>
+    <path d="M330 44V158" stroke="#FFF4E8"/>
   </g>
 
-  <path d="M68 128C102 128 126 117 154 95C183 73 212 61 248 71C277 79 305 103 338 103" stroke="url(#signal)" stroke-width="4.5" stroke-linecap="round"/>
-  <circle cx="67" cy="128" r="7" fill="#F8EFE1"/>
-  <circle cx="154" cy="95" r="7" fill="#F4B08A"/>
-  <circle cx="248" cy="71" r="8" fill="#DE6D4B"/>
-  <circle cx="338" cy="103" r="7" fill="#F8EFE1"/>
-
-  <g filter="url(#chipShadow)">
-    <rect x="36" y="52" width="118" height="36" rx="18" fill="#F7F1E7" fill-opacity="0.13"/>
-    <rect x="186" y="24" width="124" height="40" rx="20" fill="#DE6D4B" fill-opacity="0.9"/>
-    <rect x="286" y="128" width="112" height="36" rx="18" fill="#F7F1E7" fill-opacity="0.13"/>
+  <g filter="url(#softShadow)">
+    <rect x="38" y="36" width="104" height="34" rx="17" fill="#F7F1E7" fill-opacity="0.13"/>
+    <rect x="158" y="30" width="124" height="40" rx="20" fill="#DE6D4B" fill-opacity="0.94"/>
+    <rect x="298" y="36" width="84" height="34" rx="17" fill="#F7F1E7" fill-opacity="0.13"/>
   </g>
 
-  <text x="95" y="75" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Ion channels</text>
-  <text x="248" y="49" fill="#FFF9F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Neural state</text>
-  <text x="342" y="151" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Behavior</text>
+  <text x="90" y="58" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Ion channels</text>
+  <text x="220" y="56" fill="#FFF9F1" font-family="Avenir Next, Segoe UI, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Neural state</text>
+  <text x="340" y="58" fill="#FFF7EE" font-family="Avenir Next, Segoe UI, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Behavior</text>
+
+  <path d="M143 53H157" stroke="#FFF4E8" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M283 53H297" stroke="#FFF4E8" stroke-opacity="0.5" stroke-width="2.4" stroke-linecap="round"/>
+
+  <path d="M58 126C86 126 108 123 130 108C151 94 169 79 194 79C220 79 235 92 255 104C275 116 294 123 324 123C339 123 352 121 362 118" stroke="url(#signal)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="82" cy="126" r="7" fill="#F8EFE1"/>
+  <circle cx="162" cy="89" r="7" fill="#F4B08A"/>
+  <circle cx="220" cy="79" r="8" fill="#DE6D4B"/>
+  <circle cx="292" cy="118" r="7" fill="#F4B08A"/>
+  <circle cx="362" cy="118" r="7" fill="#F8EFE1"/>
+
+  <text x="58" y="154" fill="#FFF1E4" fill-opacity="0.62" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">MECHANISM</text>
+  <text x="182" y="154" fill="#FFF1E4" fill-opacity="0.62" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">ENCODING</text>
+  <text x="304" y="154" fill="#FFF1E4" fill-opacity="0.62" font-family="Avenir Next, Segoe UI, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">OUTPUT</text>
 
   <defs>
     <linearGradient id="panel" x1="18" y1="12" x2="370" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FFFFFF" stop-opacity="0.08"/>
       <stop offset="1" stop-color="#9CD0D4" stop-opacity="0.04"/>
     </linearGradient>
-    <linearGradient id="signal" x1="68" y1="128" x2="338" y2="103" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF3E6" stop-opacity="0.7"/>
-      <stop offset="0.55" stop-color="#F5AF88"/>
-      <stop offset="1" stop-color="#FFF3E6" stop-opacity="0.6"/>
+    <linearGradient id="signal" x1="58" y1="126" x2="362" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3E6" stop-opacity="0.72"/>
+      <stop offset="0.52" stop-color="#F5AF88"/>
+      <stop offset="1" stop-color="#FFF3E6" stop-opacity="0.68"/>
     </linearGradient>
-    <filter id="chipShadow" x="18" y="14" width="386" height="162" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#082A2E" flood-opacity="0.14"/>
+    <filter id="softShadow" x="26" y="18" width="368" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#082A2E" flood-opacity="0.14"/>
     </filter>
   </defs>
 </svg>

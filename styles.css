@@ -507,15 +507,39 @@ body::before {
 }
 
 .quote-block {
+  position: relative;
   display: grid;
-  align-content: end;
+  align-content: space-between;
+  gap: 24px;
   background: linear-gradient(160deg, rgba(13, 109, 115, 0.92), rgba(14, 64, 70, 0.92));
   color: #f9f3e7;
   box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.quote-block::before {
+  position: absolute;
+  right: -44px;
+  top: -34px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 243, 230, 0.12), transparent 68%);
+  content: "";
+}
+
+.quote-flow-graphic {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .quote-block p {
   margin: 0;
+  position: relative;
+  z-index: 1;
   font-family: "Iowan Old Style", "Palatino Linotype", serif;
   font-size: clamp(1.45rem, 2.5vw, 2.05rem);
   line-height: 1.12;

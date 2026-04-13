@@ -177,7 +177,7 @@ body::before {
   bottom: 24px;
   width: 124px;
   height: 96px;
-  background: url("./fly-badge.svg") center / contain no-repeat;
+  background: url("./fly-badge-v2.svg") center / contain no-repeat;
   opacity: 0.12;
   pointer-events: none;
   content: "";
@@ -455,7 +455,7 @@ body::before {
   top: 14px;
   width: 42px;
   height: 32px;
-  background: url("./fly-badge.svg") center / contain no-repeat;
+  background: url("./fly-badge-v2.svg") center / contain no-repeat;
   opacity: 0.08;
   content: "";
 }

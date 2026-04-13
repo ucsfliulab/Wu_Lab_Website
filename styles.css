@@ -326,14 +326,22 @@ body::before {
 }
 
 .hero h1 {
-  max-width: 10.5ch;
+  max-width: 11.6ch;
   font-size: clamp(2rem, 4vw, 3.45rem);
   letter-spacing: -0.05em;
-  line-height: 0.98;
+  line-height: 0.96;
 }
 
-.hero h1 span {
-  display: inline-block;
+.hero-title {
+  display: grid;
+  gap: 0.04em;
+}
+
+.hero-line {
+  display: block;
+}
+
+.hero-highlight {
   color: var(--coral);
 }
 

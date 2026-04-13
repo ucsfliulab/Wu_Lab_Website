@@ -153,8 +153,9 @@ body::before {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.02fr) minmax(320px, 0.78fr);
-  gap: 28px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.08fr);
+  gap: 24px 28px;
+  align-items: center;
   margin-top: 28px;
   padding: 32px;
   background:
@@ -168,6 +169,7 @@ body::before {
 
 .hero-copy {
   min-width: 0;
+  max-width: 34rem;
 }
 
 .hero::after,
@@ -312,8 +314,8 @@ body::before {
 }
 
 .hero h1 {
-  max-width: 12.5ch;
-  font-size: clamp(2.1rem, 4.35vw, 3.7rem);
+  max-width: 10.5ch;
+  font-size: clamp(2rem, 4vw, 3.45rem);
   letter-spacing: -0.05em;
   line-height: 0.98;
 }
@@ -338,7 +340,7 @@ body::before {
 }
 
 .hero-text {
-  max-width: 54ch;
+  max-width: 50ch;
   margin: 18px 0 22px;
 }
 
@@ -382,11 +384,12 @@ body::before {
 }
 
 .hero-metrics {
+  grid-column: 1 / -1;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   padding: 0;
-  margin: 0;
+  margin: 2px 0 0;
   list-style: none;
 }
 
@@ -428,7 +431,7 @@ body::before {
 }
 
 .signal-panel {
-  width: min(100%, 390px);
+  width: min(100%, 660px);
 }
 
 .hero-diagram {
@@ -956,7 +959,7 @@ body::before {
   }
 
   .signal-panel {
-    max-width: 460px;
+    max-width: 620px;
   }
 
   .page-banner-grid {
@@ -1019,6 +1022,10 @@ body::before {
     max-width: 12ch;
     font-size: clamp(1.85rem, 8.2vw, 2.75rem);
     line-height: 1;
+  }
+
+  .hero-copy {
+    max-width: none;
   }
 
   .page-banner h1,

@@ -28,8 +28,6 @@
   <text x="86" y="144" fill="#F6EEDD" fill-opacity="0.62" font-family="Avenir Next, Segoe UI, sans-serif" font-size="11" font-weight="700" letter-spacing="2">STATE TRAJECTORY</text>
 
   <path d="M98 292C146 292 188 281 220 242C246 211 276 192 309 200C344 209 371 244 396 292C406 311 419 327 436 340" stroke="url(#trace)" stroke-width="8" stroke-linecap="round"/>
-  <path d="M160 326C206 316 246 316 282 328C316 339 347 359 384 394" stroke="#FFF4E8" stroke-opacity="0.18" stroke-width="3" stroke-linecap="round"/>
-
   <circle cx="98" cy="292" r="9" fill="#FFF4E7"/>
   <circle cx="220" cy="242" r="10" fill="#F6B48D"/>
   <circle cx="309" cy="200" r="11" fill="#DE6D4B"/>

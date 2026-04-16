@@ -457,7 +457,6 @@ body::before {
   display: block;
   width: 100%;
   height: auto;
-  filter: drop-shadow(0 24px 44px rgba(13, 40, 44, 0.16));
 }
 
 .section {

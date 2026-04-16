@@ -158,9 +158,7 @@ body::before {
   align-items: center;
   margin-top: 28px;
   padding: 32px;
-  background:
-    linear-gradient(135deg, rgba(255, 250, 240, 0.9), rgba(255, 246, 235, 0.72)),
-    linear-gradient(180deg, rgba(13, 109, 115, 0.08), transparent 40%);
+  background: #f6f1e8;
   border: 1px solid rgba(255, 255, 255, 0.72);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow);

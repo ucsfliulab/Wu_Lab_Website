@@ -133,18 +133,25 @@ body::before {
 .site-nav {
   grid-area: nav;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 6px;
   align-items: center;
   justify-content: center;
   width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
   padding: 6px;
   border: 1px solid rgba(23, 35, 32, 0.08);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.42);
 }
 
+.site-nav::-webkit-scrollbar {
+  display: none;
+}
+
 .site-nav a {
+  flex: 0 0 auto;
   color: var(--ink);
   text-decoration: none;
   font-size: 0.9rem;

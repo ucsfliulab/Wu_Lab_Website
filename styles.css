@@ -35,6 +35,16 @@ body {
   font-family: "Avenir Next", "Segoe UI", sans-serif;
 }
 
+html[lang="zh-Hans"] body {
+  font-family:
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    "Noto Sans CJK SC",
+    "Segoe UI",
+    sans-serif;
+}
+
 body::before {
   position: fixed;
   inset: 0;
@@ -67,9 +77,10 @@ body::before {
   top: 12px;
   z-index: 10;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 14px 20px;
   padding: 16px 22px;
   background: rgba(255, 250, 240, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.65);
@@ -118,6 +129,7 @@ body::before {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
+  align-items: center;
 }
 
 .site-nav a {
@@ -139,6 +151,41 @@ body::before {
 }
 
 .site-nav a.is-active {
+  color: #fffaf4;
+  background: linear-gradient(135deg, var(--teal), var(--teal-deep));
+}
+
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid rgba(23, 35, 32, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.52);
+  font-size: 0.82rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.language-switch a,
+.language-switch span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 10px;
+  border-radius: 999px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.language-switch a:hover,
+.language-switch a:focus-visible {
+  color: var(--teal);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.language-switch span {
   color: #fffaf4;
   background: linear-gradient(135deg, var(--teal), var(--teal-deep));
 }
@@ -328,6 +375,28 @@ body::before {
   font-size: clamp(1.9rem, 3.55vw, 3.05rem);
   letter-spacing: -0.045em;
   line-height: 0.97;
+}
+
+html[lang="zh-Hans"] .hero h1,
+html[lang="zh-Hans"] .page-banner h1,
+html[lang="zh-Hans"] .section-heading h2,
+html[lang="zh-Hans"] .spotlight-copy h2,
+html[lang="zh-Hans"] .vision-copy h2,
+html[lang="zh-Hans"] .join-panel h2 {
+  max-width: 18ch;
+  letter-spacing: 0;
+  line-height: 1.12;
+}
+
+html[lang="zh-Hans"] .eyebrow,
+html[lang="zh-Hans"] .model-pill,
+html[lang="zh-Hans"] .page-banner-card strong,
+html[lang="zh-Hans"] .card-index,
+html[lang="zh-Hans"] .timeline-year,
+html[lang="zh-Hans"] .person-role,
+html[lang="zh-Hans"] .news-date,
+html[lang="zh-Hans"] .publication-year {
+  letter-spacing: 0.08em;
 }
 
 .hero-title {
@@ -1024,6 +1093,11 @@ body::before {
   .site-nav a {
     font-size: 0.88rem;
     padding: 9px 12px;
+  }
+
+  .language-switch {
+    width: 100%;
+    justify-content: center;
   }
 
   .hero,

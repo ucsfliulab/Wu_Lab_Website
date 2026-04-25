@@ -999,8 +999,8 @@ html[lang="zh-Hans"] .hero h1 {
 
 .people-list-style .person-card.person-card-opportunity {
   display: grid;
-  grid-template-columns: 160px minmax(0, 1fr);
-  gap: 24px;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 22px;
   align-items: center;
   margin-top: 28px;
   padding: 28px 0 0;
@@ -1012,7 +1012,7 @@ html[lang="zh-Hans"] .hero h1 {
 
 .future-member-photo {
   display: block;
-  width: 160px;
+  width: 140px;
   aspect-ratio: 1 / 1;
   object-fit: contain;
   border-radius: 18px;
@@ -1388,6 +1388,6 @@ html[lang="zh-Hans"] .hero h1 {
   }
 
   .future-member-photo {
-    width: min(100%, 180px);
+    width: min(100%, 160px);
   }
 }

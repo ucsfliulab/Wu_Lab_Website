@@ -884,6 +884,8 @@ html[lang="zh-Hans"] .hero h1 {
 .people-list-style .person-card-opportunity h3 {
   max-width: none;
   margin-bottom: 0;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .news-list-style .news-item {

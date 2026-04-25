@@ -381,11 +381,11 @@ body::before {
 
 .vision-image-banner {
   overflow: hidden;
-  padding: 22px;
-  background: rgba(255, 250, 240, 0.76);
-  border: 1px solid rgba(255, 255, 255, 0.68);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow);
+  margin: 0 0 32px;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.46);
+  border: 1px solid rgba(23, 35, 32, 0.06);
+  border-radius: 10px;
 }
 
 .vision-image-banner img {
@@ -1178,6 +1178,7 @@ html[lang="zh-Hans"] .hero h1 {
 
 .vision-layout {
   align-items: start;
+  margin-top: 0;
 }
 
 .vision-copy,

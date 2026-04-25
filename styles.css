@@ -931,12 +931,24 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .people-list-style .person-card.person-card-opportunity {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
   margin-top: 28px;
   padding: 28px 0 0;
   background: transparent;
   border: none;
   border-radius: 8px;
   box-shadow: none;
+}
+
+.future-member-photo {
+  display: block;
+  width: 160px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border-radius: 18px;
 }
 
 .people-list-style .person-card-opportunity .person-role {
@@ -1298,8 +1310,17 @@ html[lang="zh-Hans"] .hero h1 {
     grid-template-columns: 1fr;
   }
 
+  .people-list-style .person-card.person-card-opportunity {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
   .person-photo {
     width: min(100%, 160px);
     margin: 0 0 16px;
+  }
+
+  .future-member-photo {
+    width: min(100%, 180px);
   }
 }

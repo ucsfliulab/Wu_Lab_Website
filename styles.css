@@ -757,7 +757,7 @@ html[lang="zh-Hans"] .hero h1 {
 
 .approach-image-card {
   display: flex;
-  align-self: start;
+  align-self: stretch;
   align-items: center;
   justify-content: center;
   min-width: 0;
@@ -781,10 +781,77 @@ html[lang="zh-Hans"] .hero h1 {
 
 .approach-layout {
   display: grid;
-  grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
+  grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1.1fr);
   gap: 28px;
-  align-items: start;
+  align-items: stretch;
   margin-top: 0;
+}
+
+.approach-toolkit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 100%;
+  padding: 28px;
+}
+
+.toolkit-heading {
+  max-width: 34rem;
+}
+
+.toolkit-heading h3 {
+  margin-bottom: 10px;
+}
+
+.toolkit-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
+.toolkit-groups {
+  display: grid;
+  flex: 1;
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.toolkit-item {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: 14px;
+  align-items: center;
+  min-height: 0;
+  padding: 16px 18px;
+  border: 1px solid rgba(23, 35, 32, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.toolkit-item span {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(13, 109, 115, 0.1);
+  color: var(--teal-deep);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.toolkit-item h4 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.toolkit-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.42;
 }
 
 .vision-layout,

@@ -483,6 +483,15 @@ html[lang="zh-Hans"] .hero h1 {
   white-space: nowrap;
 }
 
+.heading-balanced-lines {
+  max-width: none !important;
+}
+
+.heading-balanced-lines span {
+  display: block;
+  white-space: nowrap;
+}
+
 .hero-title {
   display: grid;
   gap: 0;

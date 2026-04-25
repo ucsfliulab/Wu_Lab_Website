@@ -154,9 +154,9 @@ body::before {
   flex: 0 0 auto;
   color: var(--ink);
   text-decoration: none;
-  font-size: 0.86rem;
+  font-size: 0.94rem;
   min-height: 36px;
-  padding: 8px 12px;
+  padding: 8px 13px;
   border-radius: 999px;
   transition:
     color 160ms ease,
@@ -1328,7 +1328,7 @@ html[lang="zh-Hans"] .hero h1 {
   }
 
   .site-nav a {
-    font-size: 0.8rem;
+    font-size: 0.86rem;
     min-height: 34px;
     padding: 7px 9px;
   }

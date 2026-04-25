@@ -873,6 +873,19 @@ html[lang="zh-Hans"] .hero h1 {
   line-height: 1.55;
 }
 
+.people-list-style .person-card-opportunity {
+  margin-top: 24px;
+  padding: 26px 28px;
+  background: rgba(255, 250, 240, 0.78);
+  border: 1px solid rgba(23, 35, 32, 0.12);
+  border-radius: 8px;
+}
+
+.people-list-style .person-card-opportunity h3 {
+  max-width: none;
+  margin-bottom: 0;
+}
+
 .news-list-style .news-item {
   max-width: 52rem;
 }

@@ -381,7 +381,7 @@ body::before {
 
 .vision-image-banner {
   overflow: hidden;
-  padding: 14px;
+  padding: 22px;
   background: rgba(255, 250, 240, 0.76);
   border: 1px solid rgba(255, 255, 255, 0.68);
   border-radius: var(--radius-xl);
@@ -391,8 +391,8 @@ body::before {
 .vision-image-banner img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 7;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 8px;
 }
 

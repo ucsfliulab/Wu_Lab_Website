@@ -497,6 +497,10 @@ html[lang="zh-Hans"] .hero h1 {
   gap: 0;
 }
 
+.hero-title-wide {
+  max-width: 24ch;
+}
+
 .hero-line {
   display: block;
 }

@@ -1219,6 +1219,16 @@ html[lang="zh-Hans"] .hero h1 {
 
 .join-panel {
   align-items: stretch;
+  gap: 18px;
+}
+
+.join-section {
+  padding: 18px;
+}
+
+.join-panel > div,
+.join-panel .contact-box {
+  border-radius: 8px;
 }
 
 .contact-box {

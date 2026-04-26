@@ -1224,6 +1224,9 @@ html[lang="zh-Hans"] .hero h1 {
 
 .join-section {
   padding: 18px;
+  background: none;
+  border: none;
+  box-shadow: none;
 }
 
 .join-panel > div,

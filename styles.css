@@ -1236,6 +1236,12 @@ html[lang="zh-Hans"] .hero h1 {
   border-radius: 8px;
 }
 
+.join-panel .contact-box {
+  background: linear-gradient(135deg, rgba(255, 250, 240, 0.86), rgba(255, 246, 235, 0.74));
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow);
+}
+
 .contact-box {
   display: grid;
   align-content: start;

@@ -623,6 +623,8 @@ html[lang="zh-Hans"] .hero h1 {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: var(--radius-md);
+  overflow: hidden;
 }
 
 .section {

@@ -936,9 +936,10 @@ html[lang="zh-Hans"] .hero h1 {
 
 .publication-list-column .publication-item h3 {
   margin: 0 0 8px;
-  max-width: 38ch;
+  max-width: none;
   font-size: 1.42rem;
   line-height: 1.18;
+  text-wrap: pretty;
 }
 
 .publication-list-column .publication-year {

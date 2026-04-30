@@ -92,7 +92,7 @@ body::before {
   width: 66px;
   height: 66px;
   overflow: hidden;
-  background: url("./him9.png") center / 148% auto no-repeat;
+  background: url("./him9.png?v=20260430-logo4") center / 148% auto no-repeat;
   color: transparent;
   font-size: 0;
 }

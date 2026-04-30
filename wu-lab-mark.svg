@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 144 144" role="img" aria-labelledby="title desc">
+  <title id="title">Wu Lab mark</title>
+  <desc id="desc">Stylized WL initials with orbit arcs and a DNA-inspired ribbon.</desc>
+  <defs>
+    <linearGradient id="deepTeal" x1="16" y1="16" x2="104" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f6f79"/>
+      <stop offset="1" stop-color="#073f49"/>
+    </linearGradient>
+    <linearGradient id="aqua" x1="20" y1="88" x2="116" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d6d73"/>
+      <stop offset="0.58" stop-color="#27b3ad"/>
+      <stop offset="1" stop-color="#70d5cd"/>
+    </linearGradient>
+    <filter id="softShadow" x="-18%" y="-18%" width="136%" height="136%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0e4046" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path
+      d="M30 102A55 55 0 0 0 111 67"
+      fill="none"
+      stroke="url(#deepTeal)"
+      stroke-width="4.4"
+      stroke-linecap="round"
+    />
+    <path
+      d="M20 67A55 55 0 0 1 98 22"
+      fill="none"
+      stroke="url(#deepTeal)"
+      stroke-width="4.4"
+      stroke-linecap="round"
+    />
+    <circle cx="102" cy="37" r="7.6" fill="url(#deepTeal)"/>
+    <circle cx="34" cy="103" r="6.8" fill="url(#deepTeal)"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path
+      d="M7 77C22 55 38 55 53 75C69 96 85 97 101 77C107 69 113 64 121 63"
+      stroke="url(#deepTeal)"
+      stroke-width="5.8"
+    />
+    <path
+      d="M8 75C25 87 39 92 54 82C72 69 83 43 101 41C110 40 118 45 123 51"
+      stroke="url(#aqua)"
+      stroke-width="5.8"
+    />
+    <path d="M20 68L18 80" stroke="#f8fffd" stroke-width="3.8"/>
+    <path d="M33 64L30 84" stroke="#f8fffd" stroke-width="3.8"/>
+    <path d="M88 47L91 69" stroke="#f8fffd" stroke-width="3.8"/>
+    <path d="M103 43L106 63" stroke="#f8fffd" stroke-width="3.8"/>
+  </g>
+
+  <text
+    x="25"
+    y="74"
+    fill="#0c5660"
+    font-family="Avenir Next, Arial, sans-serif"
+    font-size="48"
+    font-weight="800"
+    letter-spacing="-1.4"
+  >W</text>
+  <text
+    x="72"
+    y="93"
+    fill="#24b8b0"
+    font-family="Avenir Next, Arial, sans-serif"
+    font-size="42"
+    font-weight="800"
+    letter-spacing="-0.6"
+  >L</text>
+</svg>

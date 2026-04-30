@@ -66,7 +66,7 @@ body::before {
   top: 12px;
   z-index: 10;
   display: grid;
-  grid-template-columns: minmax(210px, 0.46fr) minmax(680px, 1fr) auto;
+  grid-template-columns: minmax(238px, 0.48fr) minmax(660px, 1fr) auto;
   grid-template-areas: "brand nav language";
   align-items: center;
   gap: 16px;
@@ -81,40 +81,41 @@ body::before {
   grid-area: brand;
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   min-width: 0;
   color: inherit;
   text-decoration: none;
 }
 
 .brand-mark {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 16px;
-  background: linear-gradient(135deg, var(--teal), var(--teal-deep));
-  color: #f9f6ef;
-  font-family: "Avenir Next Condensed", "Arial Narrow", sans-serif;
-  font-size: 0.94rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  display: block;
+  flex: 0 0 auto;
+  width: 62px;
+  height: 62px;
+  overflow: hidden;
+  background: url("./wu-lab-mark.svg") center / contain no-repeat;
+  color: transparent;
+  font-size: 0;
 }
 
 .brand-text {
   display: grid;
-  gap: 2px;
+  gap: 4px;
   min-width: 0;
 }
 
 .brand-text strong {
-  font-size: 0.96rem;
-  line-height: 1;
+  color: #0a2530;
+  font-size: 1.12rem;
+  font-weight: 800;
+  line-height: 0.98;
 }
 
 .brand-text span {
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .site-nav {
@@ -1278,6 +1279,15 @@ html[lang="zh-Hans"] .hero h1 {
   }
 }
 
+@media (max-width: 1120px) {
+  .site-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "brand language"
+      "nav nav";
+  }
+}
+
 @media (max-width: 1024px) {
   .hero,
   .spotlight-panel,
@@ -1334,6 +1344,23 @@ html[lang="zh-Hans"] .hero h1 {
       "nav nav";
     padding: 16px 18px;
     border-radius: 28px;
+  }
+
+  .brand {
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 52px;
+    height: 52px;
+  }
+
+  .brand-text strong {
+    font-size: 1rem;
+  }
+
+  .brand-text span {
+    font-size: 0.74rem;
   }
 
   .site-nav {
@@ -1441,5 +1468,11 @@ html[lang="zh-Hans"] .hero h1 {
 
   .future-member-photo {
     width: min(100%, 160px);
+  }
+}
+
+@media (max-width: 460px) {
+  .brand-text span {
+    display: none;
   }
 }

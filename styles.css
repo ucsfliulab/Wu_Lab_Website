@@ -462,6 +462,12 @@ html[lang="zh-Hans"] .language-switch {
   letter-spacing: 0;
 }
 
+html[lang="zh-Hans"] .site-nav {
+  gap: 0;
+  justify-content: space-between;
+  padding: 6px clamp(72px, 10vw, 92px);
+}
+
 html[lang="zh-Hans"] .hero h1 {
   max-width: 22ch;
   font-size: clamp(1.72rem, 2.8vw, 2.38rem);
@@ -1413,6 +1419,12 @@ html[lang="zh-Hans"] .hero h1 {
     justify-content: center;
     gap: 4px;
     overflow-x: auto;
+  }
+
+  html[lang="zh-Hans"] .site-nav {
+    justify-content: center;
+    gap: 4px;
+    padding: 6px;
   }
 
   .site-nav a {

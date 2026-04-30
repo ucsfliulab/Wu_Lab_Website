@@ -383,8 +383,9 @@ body::before {
 }
 
 .model-pill img {
-  width: 34px;
-  height: 26px;
+  width: 42px;
+  height: 42px;
+  margin: -4px 0;
   object-fit: contain;
 }
 

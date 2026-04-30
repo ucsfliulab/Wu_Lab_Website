@@ -218,8 +218,8 @@ body::before {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 22px;
+  grid-template-columns: minmax(0, 1fr) minmax(390px, 0.9fr);
+  gap: 24px 34px;
   align-items: center;
   margin-top: 28px;
   padding: 32px;
@@ -231,36 +231,8 @@ body::before {
 }
 
 .hero-copy {
-  display: grid;
-  grid-template-columns: minmax(0, 0.96fr) minmax(340px, 0.78fr);
-  grid-template-areas:
-    "eyebrow text"
-    "model text"
-    "title actions";
-  gap: 18px 36px;
-  align-items: start;
   min-width: 0;
   max-width: none;
-}
-
-.hero-copy .eyebrow {
-  grid-area: eyebrow;
-}
-
-.hero-copy .model-pill {
-  grid-area: model;
-}
-
-.hero-copy .hero-title {
-  grid-area: title;
-}
-
-.hero-copy .hero-text {
-  grid-area: text;
-}
-
-.hero-copy .hero-actions {
-  grid-area: actions;
 }
 
 .hero::after,
@@ -516,7 +488,7 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .hero-title-wide {
-  max-width: none;
+  max-width: 32ch;
 }
 
 .hero-line {
@@ -543,9 +515,8 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .hero-text {
-  max-width: none;
-  margin: 0;
-  font-size: 1rem;
+  max-width: 64ch;
+  margin: 18px 0 22px;
 }
 
 .email-contact {
@@ -574,8 +545,7 @@ html[lang="zh-Hans"] .hero h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  align-self: end;
-  margin: 0 0 4px;
+  margin-bottom: 24px;
 }
 
 .button {
@@ -652,7 +622,9 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .hero-visual {
-  display: none;
+  display: grid;
+  place-items: center;
+  align-self: stretch;
 }
 
 .signal-panel {
@@ -1358,26 +1330,6 @@ html[lang="zh-Hans"] .hero h1 {
   .hero h1 {
     max-width: 20ch;
     font-size: clamp(1.78rem, 3.7vw, 2.42rem);
-  }
-
-  .hero-copy {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "eyebrow"
-      "model"
-      "title"
-      "text"
-      "actions";
-    gap: 14px;
-  }
-
-  .hero-text {
-    margin-top: 4px;
-  }
-
-  .hero-actions {
-    align-self: start;
-    margin-top: 4px;
   }
 
   .hero-metrics {

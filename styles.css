@@ -491,6 +491,12 @@ html[lang="zh-Hans"] .hero h1 {
   max-width: 42ch;
 }
 
+.hero h1.hero-title-one-line {
+  max-width: none;
+  font-size: clamp(1.7rem, 2.35vw, 2.24rem);
+  white-space: nowrap;
+}
+
 .hero-line {
   display: block;
   white-space: nowrap;
@@ -1333,6 +1339,16 @@ html[lang="zh-Hans"] .hero h1 {
     font-size: clamp(1.78rem, 3.7vw, 2.42rem);
   }
 
+  .hero h1.hero-title-one-line {
+    max-width: none;
+    font-size: clamp(1.62rem, 2.75vw, 2.1rem);
+    white-space: nowrap;
+  }
+
+  .hero-title-one-line .hero-line {
+    white-space: nowrap;
+  }
+
   .hero-line {
     white-space: normal;
   }
@@ -1447,6 +1463,15 @@ html[lang="zh-Hans"] .hero h1 {
     max-width: 20ch;
     font-size: clamp(1.58rem, 6vw, 2.08rem);
     line-height: 1.1;
+  }
+
+  .hero h1.hero-title-one-line {
+    max-width: 20ch;
+    white-space: normal;
+  }
+
+  .hero-title-one-line .hero-line {
+    white-space: normal;
   }
 
   .hero-copy {

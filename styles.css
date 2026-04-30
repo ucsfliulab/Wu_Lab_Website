@@ -90,10 +90,10 @@ body::before {
 .brand-mark {
   display: block;
   flex: 0 0 auto;
-  width: 62px;
-  height: 62px;
+  width: 66px;
+  height: 66px;
   overflow: hidden;
-  background: url("./wu-lab-mark.svg") center / contain no-repeat;
+  background: url("./him9.png") center / 148% auto no-repeat;
   color: transparent;
   font-size: 0;
 }
@@ -1351,8 +1351,8 @@ html[lang="zh-Hans"] .hero h1 {
   }
 
   .brand-mark {
-    width: 52px;
-    height: 52px;
+    width: 54px;
+    height: 54px;
   }
 
   .brand-text strong {

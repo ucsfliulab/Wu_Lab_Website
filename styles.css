@@ -218,8 +218,8 @@ body::before {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.08fr);
-  gap: 24px 28px;
+  grid-template-columns: minmax(0, 1fr) minmax(390px, 0.9fr);
+  gap: 24px 34px;
   align-items: center;
   margin-top: 28px;
   padding: 32px;
@@ -232,7 +232,7 @@ body::before {
 
 .hero-copy {
   min-width: 0;
-  max-width: 40rem;
+  max-width: none;
 }
 
 .hero::after,
@@ -488,7 +488,7 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .hero-title-wide {
-  max-width: 24ch;
+  max-width: 32ch;
 }
 
 .hero-line {
@@ -515,7 +515,7 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .hero-text {
-  max-width: 50ch;
+  max-width: 64ch;
   margin: 18px 0 22px;
 }
 

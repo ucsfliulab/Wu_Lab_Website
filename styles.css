@@ -488,11 +488,12 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .hero h1.hero-title-wide {
-  max-width: 34ch;
+  max-width: 42ch;
 }
 
 .hero-line {
   display: block;
+  white-space: nowrap;
 }
 
 .hero-highlight {
@@ -1330,6 +1331,10 @@ html[lang="zh-Hans"] .hero h1 {
   .hero h1 {
     max-width: 20ch;
     font-size: clamp(1.78rem, 3.7vw, 2.42rem);
+  }
+
+  .hero-line {
+    white-space: normal;
   }
 
   .hero-metrics {

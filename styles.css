@@ -13,7 +13,7 @@
   --radius-xl: 32px;
   --radius-lg: 24px;
   --radius-md: 18px;
-  --max-width: 1180px;
+  --max-width: 1500px;
 }
 
 * {
@@ -47,7 +47,7 @@ body::before {
 }
 
 .page-shell {
-  width: min(calc(100% - 32px), var(--max-width));
+  width: min(calc(100% - 24px), var(--max-width));
   margin: 20px auto;
 }
 
@@ -229,7 +229,7 @@ body::before {
 
 .hero-copy {
   min-width: 0;
-  max-width: 34rem;
+  max-width: 40rem;
 }
 
 .hero::after,
@@ -603,7 +603,7 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .signal-panel {
-  width: min(100%, 660px);
+  width: min(100%, 780px);
 }
 
 .hero-diagram {

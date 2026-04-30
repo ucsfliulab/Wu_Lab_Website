@@ -487,8 +487,8 @@ html[lang="zh-Hans"] .hero h1 {
   gap: 0;
 }
 
-.hero-title-wide {
-  max-width: 32ch;
+.hero h1.hero-title-wide {
+  max-width: 34ch;
 }
 
 .hero-line {
@@ -515,7 +515,7 @@ html[lang="zh-Hans"] .hero h1 {
 }
 
 .hero-text {
-  max-width: 64ch;
+  max-width: 76ch;
   margin: 18px 0 22px;
 }
 

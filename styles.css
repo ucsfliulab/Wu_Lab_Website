@@ -465,7 +465,7 @@ html[lang="zh-Hans"] .language-switch {
 html[lang="zh-Hans"] .site-nav {
   gap: 0;
   justify-content: space-between;
-  padding: 6px clamp(72px, 10vw, 92px);
+  padding: 6px clamp(22px, 4vw, 36px);
 }
 
 html[lang="zh-Hans"] .hero h1 {

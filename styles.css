@@ -551,6 +551,7 @@ html[lang="zh-Hans"] .hero h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
+  margin-top: 6px;
   margin-bottom: 24px;
 }
 

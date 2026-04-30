@@ -462,34 +462,6 @@ html[lang="zh-Hans"] .language-switch {
   letter-spacing: 0;
 }
 
-html[lang="zh-Hans"] .site-nav a:nth-child(1) {
-  min-width: 78px;
-}
-
-html[lang="zh-Hans"] .site-nav a:nth-child(2) {
-  min-width: 84px;
-}
-
-html[lang="zh-Hans"] .site-nav a:nth-child(3) {
-  min-width: 56px;
-}
-
-html[lang="zh-Hans"] .site-nav a:nth-child(4) {
-  min-width: 112px;
-}
-
-html[lang="zh-Hans"] .site-nav a:nth-child(5) {
-  min-width: 58px;
-}
-
-html[lang="zh-Hans"] .site-nav a:nth-child(6) {
-  min-width: 62px;
-}
-
-html[lang="zh-Hans"] .site-nav a:nth-child(7) {
-  min-width: 52px;
-}
-
 html[lang="zh-Hans"] .hero h1 {
   max-width: 22ch;
   font-size: clamp(1.72rem, 2.8vw, 2.38rem);
